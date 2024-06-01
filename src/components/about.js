@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import webp from '../assets/about.webp'
+import gif from '../assets/about.gif'
 import { Body, FlexContainer } from "../styles/layout"
 
 const GifContainer = styled(FlexContainer)`
@@ -16,7 +16,7 @@ export const About = () => {
     return (
         <Body>
             <GifContainer>
-                <StyledGif src={webp} />
+                <StyledGif src={gif} />
             </GifContainer>
             Also under construction ...
         </Body>
