@@ -6,6 +6,8 @@ import { Nav } from './components/nav';
 import { App } from './components/app'
 import { About } from './components/about'
 import { Blog } from './components/blog'
+import { Music } from './components/music';
+import { Art } from './components/art';
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -29,6 +31,8 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
+        <Route path="/music" element={<Music />} />
+        <Route path="/art" element={<Art />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
     </HashRouter>
