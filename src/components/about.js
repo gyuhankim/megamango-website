@@ -6,7 +6,7 @@ const GifContainer = styled(FlexContainer)`
   margin-bottom: 24px;
   `
   
-  const StyledGif = styled('img')`
+const StyledGif = styled('img')`
   width: 100%;
   max-width: 640px;
   height: auto;

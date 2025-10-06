@@ -1,17 +1,5 @@
-import styled from 'styled-components'
 import gif from '../assets/home.gif'
-import { Body, FlexContainer } from "../styles/layout"
-
-const GifContainer = styled(FlexContainer)`
-  margin-bottom: 24px;
-  `
-  
-  const StyledGif = styled('img')`
-  width: 100%;
-  max-width: 640px;
-  height: auto;
-  border-radius: 32px;
-`
+import { Body, GifContainer, StyledGif } from '../styles/layout'
 
 export const App = () => {
   return (

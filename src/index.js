@@ -5,7 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 import { Nav } from './components/nav';
 import { App } from './components/app'
 import { About } from './components/about'
-import { Posts } from './components/posts'
+import { Blog } from './components/blog'
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -29,7 +29,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
-        <Route path="/posts" element={<Posts />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </HashRouter>
     <GlobalStyles />

@@ -1,35 +1,4 @@
-import styled from "styled-components"
-import { Link } from "react-router-dom"
-import { COLORS } from "../styles/colors"
-
-const NavContainer = styled('div')`
-    display: flex;
-    justify-content: center;
-    margin: 24px 0;
-`
-
-const NavLinks = styled('ul')`
-    display: flex;
-    list-style: none;
-    padding: 0;
-`
-
-const LinkContainer = styled('li')`
-    width: 120px;
-    text-align: center;
-`
-
-const StyledLink = styled(Link)`
-    font-size: 20px;
-    text-decoration: none;
-    color: ${COLORS.black};
-
-    &:hover {
-        font-weight: bold;
-        text-decoration: underline;
-        text-underline-offset: 6px;
-    }
-`
+import { LinkContainer, NavContainer, NavLinks, StyledLink } from "../styles/layout"
 
 const LINKS = [
     {
@@ -42,7 +11,15 @@ const LINKS = [
     },
     {
         name: 'Blog',
-        path: '/posts'
+        path: '/blog'
+    },
+    {
+        name: 'Music',
+        path: '/music'
+    },
+    {
+        name: 'Art',
+        path: '/art'
     }
 ]
 
