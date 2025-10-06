@@ -1,7 +1,7 @@
 # MegaMango
 
-i make games
+[MegaMango](https://megamango.io)
 
 ## In progress
 
-AetherWinds
+Project Touchdown
